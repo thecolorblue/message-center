@@ -6,7 +6,7 @@ var serverStartTime = Math.floor(new Date() / 1);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://pm-message-center.firebaseio.com"
+  databaseURL: process.env.FIREBASE_URL
 });
 
 var postsRef = admin.database().ref('/posts');

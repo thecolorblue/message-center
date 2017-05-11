@@ -16,9 +16,6 @@
 'use strict';
 
 var admin = require('firebase-admin');
-var schedule = require('node-schedule');
-var Promise = require('promise');
-var escape = require('escape-html');
 var express = require('express');
 var multer  = require('multer');
 var browserify = require('browserify-middleware');

@@ -1,6 +1,6 @@
 var admin = require('firebase-admin');
 var outgoing = require('./outgoing.js');
-var serviceAccount = require("../Ploughmens-0f40d9ba1d7a.json");
+var serviceAccount = require("../firebase_auth.json");
 
 var serverStartTime = Math.floor(new Date() / 1);
 
